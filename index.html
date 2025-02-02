@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ViewSpace Replica</title>
+    <title>space</title>
     <link rel="stylesheet" href="space.css">
 </head>
 <body>
 
     
     <nav class="navbar">
-        <div class="logo">VIEWSPACE</div>
+        <div class="logo">
+            <img src="resources/Jupiter-PNG-Pic.png" alt="ViewSpace Logo">
+            <span>VIEWSPACE</span>
+        </div>
         <ul class="nav-links">
             <li><a href="#">Home</a></li>
             <li><a href="#">Interactives</a></li>
@@ -24,42 +27,42 @@
         <div class="slide">
 
             
-            <div class="item" style="background-image: url(53438385079_d8e772fa18_k.jpg);">
+            <div class="item" style="background-image: url(resources/53438385079_d8e772fa18_k.jpg);">
                 <div class="content">
                     <div class="name">Jellyfish Galaxy</div>
                     <div class="des">This galaxy lies over 900 million light-years away</div>
                     <button>See More</button>
                 </div>
             </div>
-            <div class="item" style="background-image: url(28023991965_2e2def8f79_h.jpg);">
+            <div class="item" style="background-image: url(resources/28023991965_2e2def8f79_h.jpg);">
                 <div class="content">
                     <div class="name">Hubble repair</div>
                     <div class="des">Replacing the caps on the HST during the February 1997 STS-82 servicing mission.</div>
                     <button>See More</button>
                 </div>
             </div>
-            <div class="item" style="background-image: url(ast2.jpg);">
+            <div class="item" style="background-image: url(resources/ast2.jpg);">
                 <div class="content">
                     <div class="name">Nova</div>
                     <div class="des">Black Hole Jet and Accompanying Erupting Nova</div>
                     <button>See More</button>
                 </div>
             </div>
-            <div class="item" style="background-image: url(ast3.png);">
+            <div class="item" style="background-image: url(resources/ast3.png);">
                 <div class="content">
                     <div class="name">New Horizons</div>
                     <div class="des">Looking Back Towards Uranus </div>
                     <button>See More</button>
                 </div>
             </div>
-            <div class="item" style="background-image: url(ast4.png);">
+            <div class="item" style="background-image: url(resources/ast4.png);">
                 <div class="content">
                     <div class="name">Nebula</div>
                     <div class="des">The red-hued filaments captured by Hubble</div>
                     <button>See More</button>
                 </div>
             </div>
-            <div class="item" style="background-image: url(53433121032_c33dd9b59b_k.jpg);">
+            <div class="item" style="background-image: url(resources/53433121032_c33dd9b59b_k.jpg);">
                 <div class="content">
                     <div class="name">Dwarf Galaxy UGC 8091</div>
                     <div class="des">The blossoming patches of red represent light emitted by excited hydrogen molecules </div>
@@ -73,8 +76,55 @@
              </div>
      
 
-       
+             
     </div>
+    <!-- Space Facts Section -->
+    <section class="space-facts">
+        <h2>Fascinating Facts About Space</h2>
+        <p>🚀 The universe is so vast that scientists estimate there are over 2 trillion galaxies!</p>
+        <p>🌍 A day on Venus is longer than a year on Venus.</p>
+        <p>🛸 The largest volcano in our solar system is Olympus Mons on Mars, which is three times the height of Mount Everest.</p>
+        <p>💫 Neutron stars are so dense that a sugar-cube-sized amount of their material would weigh a billion tons on Earth.</p>
+    </section>
+    <div class="info-box">
+        <img src="resources/53422905791_6fdb6aff33_h.jpg" alt="Space Image">
+        <div class="info-content">
+            <h2>NASA’s Hubble Watches ‘Spoke Season’ on Saturn</h2>
+            <p>October 22, 2023 when the ringed planet was approximately 850 million miles from Earth. Hubble's ultra-sharp vision reveals a phenomenon called ring spokes.</p>
+            <button class="info-button">Learn More</button>
+        </div>
+    </div>
+    <!-- Space Video -->
+    <section class="video-container">
+        <h2>Explore the Universe</h2>
+        <iframe width="560" height="315" src="resources/vid.mp4" 
+                title="Space Exploration" frameborder="0" allowfullscreen>
+        </iframe>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form">
+        <h2>Get in Touch</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 ViewSpace. All rights reserved.</p>
+    </footer>
+
+    
     <script src="space.js"></script>
    
 </body>
