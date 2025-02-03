@@ -108,7 +108,7 @@ body{
     position: relative;  /* Change from absolute */
      background-color: black;
     min-height: 70vh; /* Ensures it takes up enough space */
-    margin-bottom: -250px;  /* Reduce gap */
+    margin-bottom: -180px;  /* Reduce gap */
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -273,6 +273,7 @@ body{
 .space-facts h2 {
     font-size: 30px;
     margin-top: 0px;
+    margin-bottom: 20px;
 }
 /* Info Box Styles */
 .info-box {
