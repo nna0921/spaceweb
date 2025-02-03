@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/* Apply the background image to the body */
+
+
+body {
+    
+    background: url('resources/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: #2a0d2fb3;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px #dbdbdb;
+    text-align: center;
+    width: 500px;
+    height:400px;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+    background: rgb(233, 233, 57);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #ff9900;
+}
+
+p {
+    margin-top: 15px;
+    color: white;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
