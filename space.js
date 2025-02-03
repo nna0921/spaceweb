@@ -13,7 +13,7 @@ prev.addEventListener('click', function(){
 const form = document.querySelector("form");
 
 form.addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent actual form submission
+    event.preventDefault(); 
 
     let name = document.getElementById("name").value.trim();
     let email = document.getElementById("email").value.trim();

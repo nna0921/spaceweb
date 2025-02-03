@@ -208,13 +208,13 @@ body{
     background-repeat: no-repeat;
 }
 .prev {
-    background-image: url('left.png'); 
+    background-image: url('resources/left.png'); 
     background-size: 80%;
     background-color: transparent;
 }
 
 .next {
-    background-image: url('right.png'); 
+    background-image: url('resources/right.png'); 
     background-size: 80%;
     background-color: transparent;
 }
@@ -359,7 +359,8 @@ body{
 
 .contact-form label {
     display: block;
-    margin-top: 10px;
+    text-align: left;
+    margin-top: 20px;
     font-size: 16px;
 }
 
